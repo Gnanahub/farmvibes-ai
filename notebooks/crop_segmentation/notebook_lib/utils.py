@@ -16,3 +16,6 @@ def format_timestamp(timestamp: float) -> str:
 except ValueError as e:
         # Handle potential errors with conversion (e.g., invalid timestamp)
         return "Invalid timestamp"
+except ValueError as e:
+        # Handle potential errors with conversion (e.g., invalid timestamp)
+        return "Invalid timestamp"
